@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+header {
+    background-color: #000000; /* Example header color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 60px;
+    height: auto; /* Adjust based on your logo size */
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px; /* Padding for the main section */
+    text-align: center; /* Center align the content */
+}
+
+h2 {
+    color: #000000; /* Heading color */
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 40px auto; /* Center the container */
+    padding: 0 16px; /* Add some horizontal padding */
+}
+
+.menu-category {
+    margin-bottom: 40px; /* Space between categories */
+    text-align: left; /* Align category titles to the left */
+}
+
+.menu-category h3 {
+    font-size: 1.5em; /* Category title size */
+    color: #000000; /* Category title color */
+    margin-bottom: 10px; /* Space below category title */
+}
+
+.menu-row {
+    display: flex; /* Use flexbox for the row layout */
+    justify-content: space-between; /* Space items evenly */
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.menu-item {
+    background-color: white; /* Background for each item */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Prevent overflow */
+    text-align: center; /* Center the text below the image */
+    padding: 10px; /* Add some padding inside the menu item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a frame effect */
+    transition: transform 0.2s; /* Smooth transform effect on hover */
+    width: 23%; /* Set width for four items in a row */
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.menu-image {
+    width: 250px; /* Make images responsive */
+    height: 300px; /* Maintain aspect ratio */
+    border: 5px solid #ccc; /* Border around each image */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for images */
+    pointer-events: none; /* Disable clicking on images */
+}
+
+.menu-caption {
+    padding: 10px; /* Space around the caption */
+    font-weight: bold; /* Bold text for captions */
+    color: #000000; /* Caption text color */
+}
+
+h4 {
+    color: #000000; /* Price color */
+}
+.back-button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-button {
+    background-color: white;
+    color: #000000;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #000000;
+    color: white;
+}

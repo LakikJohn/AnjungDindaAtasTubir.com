@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css"> <!-- Link to your CSS file -->
+    <title>Contact Us</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="photo_2024-10-01_02-23-54.jpg">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="best selling.html">Best Selling</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="w3-text-white w3-container w3-padding-64" id="contact">
+      <h1>Contact Us</h1><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        
+      <p class="w3-text-blue-grey w3-large"><b>Catering Service, Jalan Meru Bestari A13, 31200 Ipoh, Perak</b></p>
+      <p>You can also contact us by phone 014-323 1630 or email AnjungDindaAtasTubir@gmail.com, or you can send us a message here:</p>
+        
+    </div> 
+    <div class="form-container">
+    <form action="message.html" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="numberOfPersons">Number of Persons:</label><br>
+        <input type="number" id="numberOfPersons" name="numberOfPersons" min="1" required><br><br>
+        
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date" required><br><br>
+        
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" class="message-box" required></textarea><br><br>
+        
+        <input type="submit" value="Send Message">
+    </form>
+</div>
+
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</body>
+</html>
